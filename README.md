@@ -91,4 +91,4 @@ To run the metaverse identity platform, follow these steps:
 8. Once the webpage is loaded, click on the "Start Process" button to initiate the metaverse identity platform.
 
 9. For a comprehensive understanding of the platform's functionality while running, refer to the provided video tutorial [here](https://youtu.be/V9SH4d8fVSk). The video will guide you through the various steps and interactions within the metaverse identity platform, showcasing its working principles and features.
-
+10. For interoperation, you would need to install weaver and build it in your local machine, once its done follow the steps below
