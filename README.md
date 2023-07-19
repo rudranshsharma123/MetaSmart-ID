@@ -40,11 +40,11 @@ The project employs the following technologies to achieve its objectives:
 By leveraging this diverse and robust technology stack, the project creates a powerful and interoperable identity platform for the metaverse. These technologies work in harmony to ensure W3C compliance, secure issuance and verification of credentials, and seamless data sharing between interconnected blockchain networks. The combination of privacy, security, and functionality provided by the technology stack forms the foundation for a trusted and reliable identity solution in the metaverse.
 ## How It Works
 
-1. The project utilizes a Flask server to establish a connection with the client using Socket.IO. This real-time communication protocol enables bidirectional communication between the server and the client, allowing for instant updates and notifications within the client application. The Flask server acts as the central hub for handling requests and responses, facilitating seamless interaction between the client and the backend systems.
+1. The project utilizes a Flask server to establish a connection with the client using Socket. IO. This real-time communication protocol enables bidirectional communication between the server and the client, allowing for instant updates and notifications within the client application. The Flask server acts as the central hub for handling requests and responses, facilitating seamless interaction between the client and the backend systems.
 
 2. The client-side application is built using vanilla HTML and JavaScript, providing a user-friendly interface for users to interact with the metaverse identity platform. HTML structures the content and layout of the user interface, while JavaScript adds interactivity and dynamic behavior. This combination ensures a seamless and intuitive user experience, allowing users to navigate through the various functionalities of the platform effortlessly.
 
-3. Upon establishing the connection, the Flask server connects to the Hyperledger Indy pool running on the local machine. The pool consists of nodes that form a decentralized network, enabling secure and private identity management. The connection is established using genesis transactions, which contain the initial configuration and state of the Indy network. This connection establishes a bridge between the metaverse identity platform and the underlying decentralized identity infrastructure.
+3. Upon establishing the connection, the Flask server connects to the Hyperledger Indy pool running on the local machine. The pool consists of nodes that form a decentralized network, enabling secure and private identity management. The connection is established using Genesis transactions, which contain the initial configuration and state of the Indy network. This connection establishes a bridge between the metaverse identity platform and the underlying decentralized identity infrastructure.
 
 4. Once the connection is established, the client initializes the pools and creates wallets for entities such as the government and VeriSmart. These wallets serve as digital containers for storing and managing cryptographic keys and credentials. By creating wallets, the platform ensures secure and isolated storage of sensitive information related to different entities involved in the metaverse ecosystem.
 
@@ -63,20 +63,20 @@ To run the metaverse identity platform, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
    ```
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/rudranshsharma123/MetaSmart-ID/)
    ```
 
 2. Clone the Hyperledger Indy-SDK repository by navigating to the desired location and executing the following command:
 
    ```
-   git clone <indy-sdk-repo-url>
+   git clone [<indy-sdk-repo-url>](https://github.com/hyperledger/indy-sdk/blob/main/docs/build-guides/mac-build.md)
    ```
 
-   After cloning, refer to the documentation available in the Indy-SDK repository to build it from source. Follow the provided instructions to ensure a successful build.
+   After cloning, refer to the documentation available in the Indy-SDK repository to build it from the source. Follow the provided instructions to ensure a successful build.
 
 3. Once the Indy-SDK is built, ensure that the built `libindy` file is in the correct location for it to be pulled into the code. Verify the path and configuration to make sure it is properly integrated with the metaverse identity platform.
 
-4. Navigate to the `docker` folder in the project repository and follow the instructions provided in the README file. This will guide you on building your own pool using the Docker configuration.
+4. Navigate to the `docker` folder in the project repository and follow the instructions provided in the README file. This will guide you in building your own pool using the Docker configuration.
 
 5. Utilize the `.txn` file located in the `indy` folder. This file contains the necessary transaction data for the Indy network. Make sure to use it while setting up the pool in the previous step.
 
