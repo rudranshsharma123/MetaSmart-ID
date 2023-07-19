@@ -69,10 +69,10 @@ To run the metaverse identity platform, follow these steps:
 2. Clone the Hyperledger Indy-SDK repository by navigating to the desired location and executing the following command:
 
    ```
-   git clone [<indy-sdk-repo-url>](https://github.com/hyperledger/indy-sdk/blob/main/docs/build-guides/mac-build.md)
+   git clone https://github.com/hyperledger/indy-sdk/
    ```
 
-   After cloning, refer to the documentation available in the Indy-SDK repository to build it from the source. Follow the provided instructions to ensure a successful build.
+   After cloning, refer to the documentation available in the Indy-SDK repository to build it from the source. Follow the provided instructions to ensure a successful build. https://github.com/hyperledger/indy-sdk/blob/main/docs/build-guides/mac-build.md
 
 3. Once the Indy-SDK is built, ensure that the built `libindy` file is in the correct location for it to be pulled into the code. Verify the path and configuration to make sure it is properly integrated with the metaverse identity platform.
 
