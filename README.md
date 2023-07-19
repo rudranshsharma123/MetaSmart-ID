@@ -91,4 +91,15 @@ To run the metaverse identity platform, follow these steps:
 8. Once the webpage is loaded, click on the "Start Process" button to initiate the metaverse identity platform.
 
 9. For a comprehensive understanding of the platform's functionality while running, refer to the provided video tutorial [here](https://youtu.be/V9SH4d8fVSk). The video will guide you through the various steps and interactions within the metaverse identity platform, showcasing its working principles and features.
-10. For interoperation, you would need to install weaver and build it in your local machine, once its done follow the steps below
+10. For interoperation, you would need to install Cacti and build it on your local machine, once it's done follow the steps below
+## Interoperation
+
+To enable interoperation with the existing components and network setup, follow these steps:
+
+1. Clone your repository containing all the necessary components to your local machine. Make sure you have the latest version of the repository.
+
+2. Locate the `test-network/fabric` folder within your cloned repository. This folder contains the pre-configured network setup for Hyperledger Fabric.
+
+3. Replace the file with JSON in the `app.py` file with the appropriate location on your machine. The JSON file should be named `chaincode.json` and contains the necessary information for interoperation. This update is essential as it accommodates new users and ensures compatibility with the interoperation functionality provided by Cacti.
+
+By following these steps, you can seamlessly integrate the pre-built components and network setup into the Metaverse identity platform. This interoperation capability allows for smooth data sharing and communication between different blockchain networks, enhancing the functionality and flexibility of the platform.
